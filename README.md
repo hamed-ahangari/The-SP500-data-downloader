@@ -1,6 +1,7 @@
 
 # S&P 500 data loader
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17EmGwu6_bgm7KqQcImlunCJVaDeocMIB?usp=sharing)
+
 I have written an S&P500 data downloader class in python to retrieve the history of prices for stocks indexed as S&P 500. The data loader came in handy when I was working on training recurrent neural networks to forecast returns from the stock market.
 ## S&P 500 
 The S&P 500, or simply the S&P, is a stock market index that measures the stock performance of 500 large companies listed on stock exchanges in the United States. It is one of the most commonly followed equity indices. (read more on [Wikipedia](https://en.wikipedia.org/wiki/S%26P_500))
