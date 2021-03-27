@@ -65,7 +65,7 @@ get_last_cleaned_prices(self, save_as_h5=False, save_as_csv=False)
 ```python
 get_last_cleaned_returns(self, save_as_h5=False, save_as_csv=False)
 ```
-#### Example of driver code
+#### An example of usage
 Finally, below is an example of how you can download data via SP500DataLoader class.
 ```python
 # TEST
