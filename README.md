@@ -25,43 +25,43 @@ Here is a list of method functions you call using the created object:
 get_stocks_list()
 ```
 
-- Return raw prices data (which is not cleaned):
+- Return **raw prices data** (which is not cleaned):
 
 ```python
 get_raw_prices(self, start_date: tuple, end_date: tuple, interval='1d', column='Adj Close', save_as_h5=False, save_as_csv=False)
 ```
 
-- Calculate and return raw returns data (which is not cleaned):
+- Return **raw return values** (which is not cleaned):
 ```python
 get_raw_returns(self, start_date: tuple, end_date: tuple, interval='1d', column='Adj Close', save_as_h5=False, save_as_csv=False)
 ```
 
-- Return cleaned prices data (stocks with at least one NAN value are excluded):
+- Return **cleaned prices data** (stocks with at least one NAN value are excluded):
 ```python
 get_cleaned_prices(self, start_date: tuple, end_date: tuple, interval='1d', column='Adj Close', save_as_h5=False, save_as_csv=False)
 ```
 
-- Calculate return values using cleaned data, and return the dataframe:
+- Return **cleaned return values**:
 ```python
 get_cleaned_returns(self, start_date: tuple, end_date: tuple, interval='1d', column='Adj Close', save_as_h5=False, save_as_csv=False)
 ```
 
-- Return the last values for raw prices without redownloading them:
+- Return the **last values for raw prices** without redownloading them:
 ```python
 get_last_raw_prices(self, save_as_h5=False, save_as_csv=False)
 ```
 
-- Return the last values for raw returns without redownloading them:
+- Return the **last values for raw returns** without redownloading them:
 ```python
 get_last_raw_returns(self, save_as_h5=False, save_as_csv=False)
 ```
 
-- Return the last values for cleaned prices without redownloading them:
+- Return the **last values for cleaned prices** without redownloading them:
 ```python
 get_last_cleaned_prices(self, save_as_h5=False, save_as_csv=False)
 ```
 
-- Return the last values for cleaned returns without redownloading them:
+- Return the **last values for cleaned returns** without redownloading them:
 ```python
 get_last_cleaned_returns(self, save_as_h5=False, save_as_csv=False)
 ```
