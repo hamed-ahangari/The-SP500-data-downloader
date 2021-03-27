@@ -20,7 +20,7 @@ Create an object to let the constructor of the data downloader class read the st
 Here is a list of method functions you call using the created object:
 
 
-- Return a list of stock names in the S&P 500 index:
+- Return a **list of stock names** in the S&P 500 index:
 ```python
 get_stocks_list()
 ```
